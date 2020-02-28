@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:background="@drawable/rha_backgroung_1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/rha_logo" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="RBIN HOOD ARMY"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/reg_fullname"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="15dp"
+                android:background="#33FFFFFF"
+                android:drawableLeft="@drawable/person"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:ems="10"
+                android:hint="full name *"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/reg_email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="#33FFFFFF"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:ems="10"
+                android:hint="Email *"
+                android:inputType="textEmailAddress"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/reg_phone"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="#33FFFFFF"
+                android:drawableLeft="@drawable/call"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:maxLength="10"
+                android:ems="10"
+                android:hint="Phone *"
+                android:inputType="numberSigned"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/reg_pass"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="#33FFFFFF"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:ems="10"
+                android:hint="Password *"
+                android:inputType="textPassword"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/reg_conf_pass"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="#33FFFFFF"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:ems="10"
+                android:hint="Confirm Password *"
+                android:inputType="textPassword"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/register_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="#175F31"
+                android:text="register"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
